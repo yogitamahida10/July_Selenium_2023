@@ -29,6 +29,10 @@ public class TestNGAmazon {
 	  
 	  
   } 
+  @Test(priority=1)
+  public void Testcase2() {
+	  System.out.println("Inside Testcase2");
+  }
   @BeforeMethod
   public void beforeMethod() {
   }
