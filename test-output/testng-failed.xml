@@ -3,19 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.TestNGAmazon">
+      <class name="com.TestNG.ParamterAnnotation">
         <methods>
-          <include name="afterClass"/>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="LaunchingTestNgWebsite"/>
-          <include name="beforeClass"/>
+          <include name="LaunchAmazon"/>
         </methods>
-      </class> <!-- com.TestNG.TestNGAmazon -->
+      </class> <!-- com.TestNG.ParamterAnnotation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
